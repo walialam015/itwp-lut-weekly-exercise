@@ -57,11 +57,11 @@ async function main() {
             row.style.backgroundColor = "#abffbd"; // green
         } else if (employmentPercentage < 25) {
             row.style.backgroundColor = "#ff9e9e"; // red
-        } else if (i % 2 === 0) {
+        } else if ((i + 1) % 2 === 0) {
             row.style.backgroundColor = "#f2f2f2"; // even row
         } else {
             row.style.backgroundColor = "#ffffff"; // odd row
-        }
+        }     
       
       tableBody.appendChild(row);
     }
