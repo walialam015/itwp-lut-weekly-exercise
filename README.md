@@ -14,3 +14,11 @@ It includes HTML, CSS, and JavaScript projects.
 - Uploading and displaying images
 - Admin status handling
 
+## Week 3
+- DOM manipulation
+- API data fetching
+- Dynamic row styling with CSS classes
+- Event handling (click, input, change)
+- Dynamic styling with JavaScript
+- Validation and error messages
+
