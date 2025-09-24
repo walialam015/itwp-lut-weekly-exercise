@@ -22,3 +22,10 @@ It includes HTML, CSS, and JavaScript projects.
 - Dynamic styling with JavaScript
 - Validation and error messages
 
+## Week 4
+- TV-show viewer app
+- Using a search form to fetch data from the TVMaze API
+- Dynamic creation of HTML elements based on API data
+- Handling missing images and summaries
+- Responsive layout using Bootstrap and CSS media queries
+- Integration of Google Fonts (Roboto) for styling
