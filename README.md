@@ -29,3 +29,12 @@ It includes HTML, CSS, and JavaScript projects.
 - Handling missing images and summaries
 - Responsive layout using Bootstrap and CSS media queries
 - Integration of Google Fonts (Roboto) for styling
+
+## Week 5
+- Interactive map of Finnish municipalities using **Leaflet**
+- Fetching GeoJSON data from Statistics Finland
+- Displaying municipality names on hover (tooltip)
+- Showing migration data on click (popup)
+- Conditional polygon coloring based on net migration
+- Adding OpenStreetMap background layer
+- Dynamic map fitting using `fitBounds()`
