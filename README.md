@@ -38,3 +38,12 @@ It includes HTML, CSS, and JavaScript projects.
 - Conditional polygon coloring based on net migration
 - Adding OpenStreetMap background layer
 - Dynamic map fitting using `fitBounds()`
+
+## Week 6
+- Fetching population data using **POST request** from Statistics Finland API
+- Creating a population chart using **Frappe Charts**
+- Municipality search functionality with local storage
+- Adding simple population predictions
+- Displaying births and deaths in a separate bar chart
+- Navigation between main chart and births/deaths chart
+- Proper data mapping and alignment for all years (2000–2021)
