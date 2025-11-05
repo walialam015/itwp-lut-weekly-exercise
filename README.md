@@ -1,4 +1,4 @@
-# ITWP LUT Weekly Exercises
+# ITWP (Introduction to Web Programming) LUT Weekly Exercises
 
 This repository contains my weekly exercises for the ITWP LUT course.  
 It includes HTML, CSS, and JavaScript projects.
@@ -47,3 +47,16 @@ It includes HTML, CSS, and JavaScript projects.
 - Displaying births and deaths in a separate bar chart
 - Navigation between main chart and births/deaths chart
 - Proper data mapping and alignment for all years (2000–2021)
+
+## Week 7
+- Building a **Tank Shooting Game** using HTML Canvas and JavaScript
+- Player-controlled tank with **arrow key movement**
+- Shooting projectiles with **spacebar**
+- Two enemy types:
+  - **Slow enemies** worth 1 point  
+  - **Fast enemies** worth 2 points
+- Game area boundaries and **Game Over** when enemies cross the bottom
+- Score tracking and restart functionality with **Enter key**
+- Improved player and enemy visuals using custom images
+- Beginner-friendly and simple JavaScript logic
+- Practiced **animation loop**, **collision detection**, and **keyboard input handling**
