@@ -1,6 +1,6 @@
 # ITWP (Introduction to Web Programming) LUT Weekly Exercises
 
-This repository contains my weekly exercises for the ITWP LUT course.  
+This repository contains my weekly exercises for the Introduction to Web Programming LUT course in Lappeenranta University of Technology LUT.  
 It includes HTML, CSS, and JavaScript projects.
 
 ## Week 1
