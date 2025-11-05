@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Population Chart</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/frappe-charts@latest/dist/frappe-charts.min.umd.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Population of Finland</h1>
+
+  <div id="form-area">
+    <input type="text" id="input-area" placeholder="Type a municipality name">
+    <button id="submit-data">Fetch Data</button>
+  </div>
+
+  <div>
+    <button id="add-data">Add Predicted Data</button>
+  </div>
+
+  <div>
+    <button id="navigation">Go to Births & Deaths Chart</button>
+  </div>
+
+  <p>This chart shows population from 2000–2021.</p>
+  <div id="chart"></div>
+</body>
+</html>

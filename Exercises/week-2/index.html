@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>User Database</title>
+</head>
+<body>
+    <h2>User Database</h2>
+    <table id="user-table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Admin</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <tr>
+                <td>User-1</td>
+                <td>example_1@mail.com</td>
+                <td>X</td>
+                <td>NO IMAGE SELECTED</td>
+            </tr>
+            <tr>
+                <td>User-2</td>
+                <td>example_2@mail.com</td>
+                <td>-</td>
+                <td>NO IMAGE SELECTED</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Add User</h2>
+
+    <form id="user-form">
+        <label for="input-username">Username:</label>
+        <input type="text" id="input-username" name="username" required>
+        <br>
+        <label for="input-email">Email:</label>
+        <input type="email" id="input-email" name="email" required>
+        <br>
+        <label for="input-admin">Admin:</label>
+        <input type="checkbox" id="input-admin" name="admin">
+        <br><br>
+        <input type="file" id="input-image" accept="image/*">
+        <br><br>
+        <button id="submit-data" type="submit">Add User</button>
+        <button id="empty-table" type="button">Empty Table</button>
+    </form>
+
+</body>
+</html>
